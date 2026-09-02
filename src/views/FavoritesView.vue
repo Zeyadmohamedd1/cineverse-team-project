@@ -1,7 +1,7 @@
 <template>
   <div class="container mt-5">
-    <h1>My Favorites ❤️</h1>
-    <p>عدد المفضلة: {{ favoritesStore.favorites.length }}</p>
+    <h1>My Favorites ⭐</h1>
+    <p>Total Favorites: {{ favoritesStore.favorites.length }}</p>
     <p v-if="favoritesStore.favorites.length === 0">No favorites yet.</p>
     <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5">
       <div
