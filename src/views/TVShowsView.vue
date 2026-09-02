@@ -1,7 +1,7 @@
 <template>
   <div class="container mt-5">
     <h1>TV Shows</h1>
-    <p>عدد المسلسلات: {{ shows.length }}</p>
+    <p> Number of TV Shows: {{ shows.length }}</p>
     <ul class="row row-cols-2 row-cols-md-3 row-cols-lg-5 list-unstyled">
       <li class="col mb-4" v-for="show in shows" :key="show.id">
         <MediaCardComponent :item="show" />

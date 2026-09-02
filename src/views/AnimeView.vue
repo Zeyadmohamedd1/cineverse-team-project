@@ -1,7 +1,7 @@
 <template>
   <div class="container mt-5">
     <h1>Anime</h1>
-    <p>عدد الانمي: {{ Anime.length }}</p>
+    <p> Number of Anime: {{ Anime.length }}</p>
     <ul class="row row-cols-2 row-cols-md-3 row-cols-lg-5 list-unstyled">
       <li class="col mb-4" v-for="item in Anime" :key="item.id">
         <MediaCardComponent :item="item" />
