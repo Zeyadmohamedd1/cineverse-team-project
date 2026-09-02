@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import { getPopularTV } from '@/services/tmdb';
-import MediaCardComponent from '@/components/MediaCardComponent.vue';
+import { getPopularTV } from "../services/tmdb.js";
+import MediaCardComponent from "../components/MediaCardComponent.vue";
 export default {
     components:{
         MediaCardComponent

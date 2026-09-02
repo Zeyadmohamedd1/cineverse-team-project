@@ -10,8 +10,8 @@
   </div>
 </template>
 <script>
-import { getPopularAnime } from "@/services/tmdb";
-import MediaCardComponent from "@/components/MediaCardComponent.vue";
+import { getPopularAnime } from "../services/tmdb.js";
+import MediaCardComponent from "../components/MediaCardComponent.vue";
 
 export default {
   components: {
