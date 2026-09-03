@@ -48,18 +48,11 @@
                 : favoritesStore.addFavorite(trending[0])
             "
           >
-            <span
-              :class="
-                favoritesStore.isFavorite(trending[0].id)
-                  ? 'text-warning'
-                  : 'text-white'
-              "
-              style="font-size: 22px;"
-            >
-              ★
-            </span>
-
-            Favorite
+            {{
+              favoritesStore.isFavorite(trending[0].id)
+                ? "Remove"
+                : "❤️ Favorite"
+            }}
           </button>
         </div>
       </div>
